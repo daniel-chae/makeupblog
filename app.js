@@ -4,7 +4,7 @@ var express = require("express"),
 app.set("view engine", "ejs");
 
 app.get("/", function(req, res){
-    res.send("basic");
+    res.render("landing");
 });
 
 app.get("/blogs", function(req, res){
